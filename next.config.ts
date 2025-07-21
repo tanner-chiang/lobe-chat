@@ -38,6 +38,7 @@ const nextConfig: NextConfig = {
     // so we need to disable it
     // refs: https://github.com/lobehub/lobe-chat/pull/7430
     serverMinification: false,
+    webpackMemoryOptimizations: true,
     webVitalsAttribution: ['CLS', 'LCP'],
   },
   async headers() {
